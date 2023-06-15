@@ -1,7 +1,5 @@
-require("dotenv").config();
-
 // API key and base URL for weather data
-const apiKey = `${process.env.API_KEY}&units=imperial`;
+const apiKey = `777613cc600918a5256850be62654654&units=imperial`;
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
 
 // Regular expression patterns for ZIP codes in different countries
