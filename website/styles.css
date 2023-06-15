@@ -1,0 +1,100 @@
+/* CSS Styles */
+
+/* Reset default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 40px auto 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+}
+
+/* Input section styles */
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input-section input[type="text"],
+.input-section textarea {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.input-section textarea {
+  resize: vertical;
+}
+
+.input-section button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Result section styles */
+.result-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: none;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.result-section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.result-section p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.result-section p span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Error message styles */
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+<!-- HTML Structure -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS file -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather App</h1> <!-- Heading -->
+        <div class="input-section">
+            <label for="zip">Enter ZIP code:</label> <!-- Label for ZIP code input -->
+            <input type="text" id="zip" placeholder="Enter ZIP code" required> <!-- ZIP code input field -->
+            <label for="country">Country Code:</label> <!-- Label for country code input -->
+            <input type="text" id="country" placeholder="Enter Country code" required> <!-- Country code input field -->
+            <label for="feelings">How do you feel today?</label> <!-- Label for feelings textarea -->
+            <textarea id="feelings" placeholder="Enter Your feelings" required></textarea> <!-- Feelings textarea -->
+            <button id="generate">Generate</button> <!-- Generate button -->
+        </div>
+        <div class="result-section">
+            <h2>Weather Details</h2> <!-- Heading for weather details -->
+            <p>Date: <span id="date"></span></p> <!-- Displaying date -->
+            <p>Temperature: <span id="temp"></span></p> <!-- Displaying temperature -->
+            <p>Feelings: <span id="content"></span></p> <!-- Displaying user feelings -->
+        </div>
+        <div id="error" class="error"></div> <!-- Error message container -->
+    </div>
+    <script src="app.js"></script> <!-- Linking external JavaScript file -->
+</body>
+
+</html>
